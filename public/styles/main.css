@@ -82,7 +82,7 @@
     padding: 43px 24px;
 }
 
-.showcase-img {
+.showcase-img, .donate-img {
     display: none;
 }
 
@@ -153,6 +153,10 @@
         align-items: start;
         width: 500px;
         justify-content: center;
+    }
+
+    .donate-img {
+        display: block;
     }
 
     .donate-container > .textgroup > .title, .description {
