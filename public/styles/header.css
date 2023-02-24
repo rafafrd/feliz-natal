@@ -18,3 +18,53 @@
     font-weight: 500;
     font-size: 24px;
 }
+
+.nav-list {
+    border-radius: 10px;
+    min-width: 200px;
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    background: var(--white);
+    position: absolute;
+    right: 24px;
+    top: 55px;
+    border: 1px solid black
+}
+
+.nav-item {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-link {
+    color: var(--black-light);
+}
+
+.nav-item:first-child {
+    margin-top: 10px;
+}
+
+.nav-item:last-child {
+    margin-bottom: 10px;
+}
+
+.nav-item:hover {
+    background-color: var(--pink);
+}
+
+.menu-label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ .nav-list {
+    display: flex;
+}
