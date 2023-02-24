@@ -1,0 +1,24 @@
+@import url('../styles/header.css');
+@import url('../styles/main.css');
+@import url('../styles/footer.css');
+
+:root {
+    --red: #DA2535;
+    --pink: #F5DADC;
+    --pink-200: #F7C7B9;
+    
+    --white: #F9F9F9;
+    --gray: #F7C7B9;
+    --gray-200: #404040;
+    --gray-400: #161212;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, button {
+    font-family: 'Poppins', sans-serif;
+}

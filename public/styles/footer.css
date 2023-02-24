@@ -1,0 +1,18 @@
+.footer {
+    padding: 15px 24px;
+}
+
+.social-media-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.social-media-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pink);
+    padding: 8px;
+    border-radius: 1000px;
+}

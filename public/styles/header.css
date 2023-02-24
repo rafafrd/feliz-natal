@@ -1,0 +1,20 @@
+.header {
+    background-color: var(--pink-200);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px
+}
+
+.logo {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.logo-name {
+    font-weight: 500;
+    font-size: 24px;
+}

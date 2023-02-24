@@ -1,0 +1,83 @@
+/* Showcase */
+
+.showcase-container {
+    background-color: var(--pink-200);
+    padding: 43px 24px;
+}
+
+.textgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.title-primary {
+    font-size: 32px;
+}
+
+.description {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--red);
+    border: none;
+    padding: 12px 32px;
+
+    width: 100%;
+    font-weight: 600;
+    color: var(--white);
+    border-radius: 8px;
+}
+
+/* Accessory */
+
+.accessory-container {
+    background-color: var(--white);
+    padding: 43px 24px;
+}
+
+.title-secondary {
+    font-size: 24px;
+}
+
+.accessory-list {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.accessory-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    width: 240px;
+}
+
+.accessory-item-title, .accessory-item-description {
+    text-align: center;
+}
+
+/* Congratulations */
+.congratulation-container {
+    background-color: var(--pink-200);
+    padding: 43px 24px;
+}
+
+.congratulation-container > .textgroup > .title-secondary {
+    width: 60%;
+}
