@@ -5,7 +5,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 24px
+    padding: 24px 10%
 }
 
 .logo {
@@ -67,4 +67,35 @@
 
 #menu-checkbox:checked ~ .nav-list {
     display: flex;
+}
+
+@media (min-width: 1280px) {
+    .menu-label {
+        display: none;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: none;
+        border: none;
+        gap: 30px;
+
+        position: static;
+    }
+
+    .nav-item:hover {
+        background: none;
+    }
+
+    .nav-list
+
+    .nav-item {
+        padding: 0;
+    }
+
+    .nav-item:first-child, .nav-item:last-child {
+        margin: 0;
+    }
 }

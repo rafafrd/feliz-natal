@@ -2,6 +2,10 @@
     padding: 15px 24px;
 }
 
+.footer > .logo {
+    display: none;
+}
+
 .social-media-list {
     display: flex;
     list-style: none;
@@ -15,4 +19,20 @@
     background-color: var(--pink);
     padding: 8px;
     border-radius: 1000px;
+}
+
+@media (min-width: 1280px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 43px 10%;
+    }
+
+    .footer > .logo {
+        display: flex;
+    }
+
+    .social-media-list {
+        gap: 50px;
+    }
 }
